@@ -7,7 +7,7 @@ body,html{
 	height: 100%;
 	display: grid;
 	grid-template-rows: 25% 8% auto 15%;
-
+	background: blue;
 }
 
 #header{
@@ -34,25 +34,4 @@ body,html{
 
 #menu{
 	border: 1px solid #000;
-}
-
-#menu ul{
-	display: flex;
-	list-style: none;
-}
-
-#menu ul li{
-	border: 1px solid #000;
-	margin: 5px;
-	padding: 5px;
-}
-
-#menu-lateral ul{
-	list-style: none;
-}
-
-#menu-lateral ul li{
-	border: 1px solid #000;
-	margin: 5px;
-	padding: 5px;
 }
