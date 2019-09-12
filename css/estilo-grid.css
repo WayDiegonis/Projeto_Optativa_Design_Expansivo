@@ -6,7 +6,7 @@ body,html{
 	border: 1px solid #000;
 	height: 100%;
 	display: grid;
-	grid-template-rows: 25% 8% auto 15%;
+	grid-template-rows: 25% auto 15%;
 
 }
 
@@ -34,11 +34,13 @@ body,html{
 
 #menu{
 	border: 1px solid #000;
+	display: none;
 }
 
 #menu ul{
 	display: flex;
 	list-style: none;
+	padding: 0px;
 }
 
 #menu ul li{
@@ -49,6 +51,7 @@ body,html{
 
 #menu-lateral ul{
 	list-style: none;
+	padding: 0px;
 }
 
 #menu-lateral ul li{
