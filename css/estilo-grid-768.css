@@ -7,6 +7,7 @@ body,html{
 	height: 100%;
 	display: grid;
 	grid-template-rows: 25% minmax(min-content,8%) auto 15%;
+	/*background-color: green;*/
 }
 
 #header{
@@ -15,7 +16,7 @@ body,html{
 
 #main{
 	border: 1px solid #000;
-	display: grid;
+	display: line;
 	grid-template-columns: auto;
 }
 
@@ -38,5 +39,5 @@ body,html{
 }
 
 #menu ul{
-	display: block;
+	display: inline;
 }
