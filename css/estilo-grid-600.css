@@ -4,13 +4,14 @@ body,html{
 
 #container{
 /*	border: 1px solid #000;*/
-	color: green;
+	color: grey;
 	height: 100%;
 	display: grid;
-	grid-template-rows: minmax(min-content,20%) minmax(min-content,7%) auto 15%;
+	grid-template-rows: 25% minmax(min-content,7%) auto;
 	grid-row-gap: 1%;
 	padding: 3px;
 }
+
 
 #header{
 	border: 1px solid #000;
@@ -19,45 +20,38 @@ body,html{
 #main{
 	border: 1px solid #000;
 	display: grid;
-	grid-template-columns: 20% auto 20%;
-	grid-column-gap: 1%;
+	grid-template-columns: auto;
 }
+
 
 #main #content{
 	border: 1px solid #000;
-	margin: 10px;
-	padding: 5px;
 }
 
 #footer{
 	border: 1px solid #000;
-	text-align: center;
 }
 
 #menu{
 	border: 1px solid #000;
+	display: inherit;
 }
-
 #menu ul{
-	display: flex;
-	list-style: none;
-	padding: 0px;
+	display: block;
 }
 
-#menu ul li{
-	border: 1px solid #000;
-	margin: 3px;
-	padding: 5px;
-}
-
-
-#content{
+#main #content h1, label, input{
 	text-align: center;
 }
 
+#header img{
+	max-width: 30%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
 
 #header h1{
 	text-align: center;
 }
-
-

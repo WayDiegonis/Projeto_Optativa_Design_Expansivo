@@ -3,12 +3,15 @@ body,html{
 }
 
 #container{
-	border: 1px solid #000;
+/*	border: 1px solid #000;*/
+	color: grey;
 	height: 100%;
 	display: grid;
-	grid-template-rows: 25% minmax(min-content,8%) auto 15%;
-	/*background-color: blue;*/
+	grid-template-rows: 25% minmax(min-content,7%) auto;
+	grid-row-gap: 1%;
+	padding: 3px;
 }
+
 
 #header{
 	border: 1px solid #000;
@@ -20,10 +23,6 @@ body,html{
 	grid-template-columns: auto;
 }
 
-#main #menu-lateral{
-	border: 1px solid #000;
-	display: none;	
-}
 
 #main #content{
 	border: 1px solid #000;
@@ -37,7 +36,22 @@ body,html{
 	border: 1px solid #000;
 	display: inherit;
 }
-
 #menu ul{
 	display: block;
+}
+
+#main #content h1, label, input{
+	text-align: center;
+}
+
+#header img{
+	max-width: 30%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+#header h1{
+	text-align: center;
 }

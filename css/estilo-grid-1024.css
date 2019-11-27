@@ -1,13 +1,13 @@
-body,html{
+/*body,html{
 	height: 100%;
-}
+}*/
 
 #container{
 /*	border: 1px solid #000;*/
-	color: green;
+	color: grey;
 	height: 100%;
 	display: grid;
-	grid-template-rows: minmax(min-content,20%) minmax(min-content,7%) auto 15%;
+	grid-template-rows: minmax(min-content,15%) minmax(min-content,5%) auto 10%;
 	grid-row-gap: 1%;
 	padding: 3px;
 }
@@ -19,7 +19,7 @@ body,html{
 #main{
 	border: 1px solid #000;
 	display: grid;
-	grid-template-columns: 20% auto 20%;
+	grid-template-columns: 15% auto 15%;
 	grid-column-gap: 1%;
 }
 
@@ -31,7 +31,6 @@ body,html{
 
 #footer{
 	border: 1px solid #000;
-	text-align: center;
 }
 
 #menu{
@@ -50,8 +49,7 @@ body,html{
 	padding: 5px;
 }
 
-
-#content{
+#main #content h1{
 	text-align: center;
 }
 
@@ -60,4 +58,6 @@ body,html{
 	text-align: center;
 }
 
-
+#nome_div #inputNome{
+	text-align: center;
+}
